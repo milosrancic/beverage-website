@@ -55,6 +55,15 @@ h2 {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration:	none;
+	color: inherit;
+}
+
 /* make bootstrap rows full width */
 .container-fluid {
 	padding-right: 7px;
