@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Arvo', serif;
 	margin: 0 auto;
 	height: 100%;
 	text-align: justify;
@@ -13,20 +15,28 @@ body {
 /* landing page image */
 #full-img { 
 	background: url(../images/full-width.jpg);
-	height: 650px;
+	height: 670px;
 	width: auto;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+
+
 h1 {
-	letter-spacing: 4px;
-	color: #F7837E;
-	font-weight: bolder;
-	padding-top: 50px;
-	font-size: 3.750em;
-	text-shadow: 1px 1px white;
+	letter-spacing: 3px;
+	color: #8B4513;
+	font-weight: normal;
+	padding-top: 145px;
+	padding-left: 45px;
+	font-size: 2em;
+	text-shadow: 1px 1px #CCCC00;
+}
+@media screen and (max-width: 450px) {
+  h1 {
+		padding-top: 180px;
+  }
 }
 
 h2 {
@@ -34,19 +44,11 @@ h2 {
 	letter-spacing: 3px;
 }
 
-/* france paragraph	*/
-.france {
-	padding-top: 450px;
-	letter-spacing: 2px;
-	color: #F7837E;
-	font-style: italic;
-	text-shadow: 1px 0 white;
-}
-
 /* best wine paragraph */
 .years{
-	color: #F7837E;
+	color: #4B0082;
 	letter-spacing: 3px;
+	font-size: 20px;
 	font-style: italic;
 	margin: 0;
 	padding: 0;
